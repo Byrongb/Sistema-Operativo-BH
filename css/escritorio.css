@@ -1,0 +1,24 @@
+body{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.escritorio {
+    width: 100rem;
+    height: 55rem;
+    background-color: antiquewhite;
+    margin-top: 4rem;
+    position: relative;
+
+}
+
+.escritorio > .fondo_escritorio {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
